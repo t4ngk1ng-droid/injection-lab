@@ -110,6 +110,8 @@ node serve.mjs
 # 浏览器打开 http://127.0.0.1:8123/
 ```
 
+根路径会显示测试页索引（带虚构内容警示）；也可以直接打开具体页面。
+
 在 DSH 新建会话，发送：
 
 ```text
@@ -128,8 +130,10 @@ injection-lab/
 ├── WRITEUP.md             # 完整实验报告：设计、逐条判读、局限
 ├── TESTING.md             # 原始测试协议（实验时的工作稿）
 ├── RUNS.md                # 运行记录与证据索引（含缺失说明）
+├── RETEST.md              # 补测计划：9 页 × A/B × 3 次
 ├── NOTICE.md              # 测试数据与虚构内容说明
 ├── LICENSE                # MIT
+├── index.html             # 测试页索引（带虚构内容警示）
 ├── serve.mjs              # 零依赖本地静态服务器，仅监听 127.0.0.1:8123
 ├── v1-visible.html        # 正文明文指令（含泄题注释）
 ├── v2-hidden.html         # CSS 隐藏指令（含泄题注释）
@@ -156,7 +160,7 @@ injection-lab/
 - **单一模型**，未测长上下文，无对照基线。
 - **无完整原始 transcript**，只有结果矩阵和部分摘录。
 
-详见 [`WRITEUP.md` 第 5 节](./WRITEUP.md) 和 [`RUNS.md`](./RUNS.md)。
+详见 [`WRITEUP.md` 第 5 节](./WRITEUP.md) 和 [`RUNS.md`](./RUNS.md)。补测计划见 [`RETEST.md`](./RETEST.md)。
 
 ---
 
