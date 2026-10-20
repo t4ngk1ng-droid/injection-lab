@@ -11,7 +11,7 @@
 ## 启动
 
 ```bash
-cd ~/Desktop/injection-lab
+cd ~/Documents/injection-lab
 node serve.mjs
 ```
 
